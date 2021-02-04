@@ -36,8 +36,8 @@ python3 setup.py install # from checkout of this repo
 # OR
 pip install pyze # install latest release from PyPI
 
-export KAMEREON_API_KEY=oF09WnKqvBDcr...
-export GIGYA_API_KEY=3_e8d4g4SE_Fo8ahyH...
+export KAMEREON_API_KEY=Ae9FDWugRxZQAGm3Sxgk7uJn6Q4CGEA2
+export GIGYA_API_KEY=3_4LKbCcMMcvjDm3X89LU4z4mNKYKdl_W0oD9w-Jvih21WqgJKtFZAnb9YdUgWT9_a
 
 pyze login  # You should only need to do this once
 pyze status
