@@ -32,10 +32,11 @@ Look for:
 ## CLI Quickstart
 Install PyZE :
 ```bash
-# from checkout of this repo
+# From checkout of this repo
 python3 setup.py install 
-# or with pip install
-pip install pyze # install latest release from PyPI
+OR
+# From PiPI 
+pip3 install pyze
 ```
 Set environment variables :
 ```
