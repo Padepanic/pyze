@@ -30,17 +30,25 @@ Look for:
 ```
 
 ## CLI Quickstart
-
+Install PyZE :
 ```bash
-python3 setup.py install # from checkout of this repo
-# OR
+# from checkout of this repo
+python3 setup.py install 
+# or with pip install
 pip install pyze # install latest release from PyPI
-
+```
+Set environment variables :
+```
 export KAMEREON_API_KEY=Ae9FDWugRxZQAGm3Sxgk7uJn6Q4CGEA2
 export GIGYA_API_KEY=3_4LKbCcMMcvjDm3X89LU4z4mNKYKdl_W0oD9w-Jvih21WqgJKtFZAnb9YdUgWT9_a
-
-pyze login  # You should only need to do this once
-pyze status
+printenv
+```
+Start Pyze :
+```
+# Start the first time for loging
+pyze login
+# After login, start with optionnal command
+pyze [command]
 ```
 
 ## API Quickstart
